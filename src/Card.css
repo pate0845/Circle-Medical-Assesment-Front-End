@@ -1,7 +1,33 @@
 .box{
     align-items: center;
-    margin: 20%;
-    box-sizing: border-box;
-    background-color: grey;
-    
+    border-bottom: 1px solid black;
+}
+
+.box img{
+    float: left;
+    border-radius: 50%;
+    height: 155px;
+    width: 155px;
+    border:1px  black solid;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding: 1px;
+    margin-right: 20px;
+}
+
+.box h1{
+    font-size: 50px;
+    margin-left: 22%;
+    margin-bottom: -1%;
+}
+
+.right-box{
+    margin-left: -93px;
+}
+
+
+.box ul{
+    list-style: none;
+    margin-left: 21%;
 }

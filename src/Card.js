@@ -21,11 +21,16 @@ const FetchApi=()=>{
             Data.map(s=>
             <div className="box"> 
              <img src={s.pic} />
+             <div className="right-box">
             <h1>{s.firstName}</h1>
-            <h5>Email:{s.email}</h5>
-            <h5>Company{s.company}</h5>
-            <h5>Skill:{s.skill}</h5>
-            <h5>Grade:{eval(s.grades.join('+'))/s.grades.length}</h5>
+            <ul>
+            <li>Email:{s.email}</li>
+            <li>Company{s.company}</li>
+            <li>Skill:{s.skill}</li>
+            <li>Grade:{eval(s.grades.join('+'))/s.grades.length}</li>
+            </ul>
+            <br></br>
+            </div>
             </div>
             )
             
